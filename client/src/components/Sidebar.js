@@ -5,7 +5,7 @@ import classes from '../style/Sidebar.module.css';
 const Sidebar = () => {
     return (
         <div className={classes.sidebar}>
-            <h2>Color Pages</h2>
+            <h2>Company</h2>
             <ul>
                 <li><Link to="/">Dashboard</Link></li>
                 <li><Link to="/cat1">Cat 1</Link></li>
