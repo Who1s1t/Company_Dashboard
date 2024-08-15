@@ -1,0 +1,58 @@
+.inputBox {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cstmInput {
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #374c86;
+    outline: none;
+
+    background-color: #374c862a;
+    color: #374c86;
+}
+
+.cstmSelect {
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #374c86;
+    outline: none;
+
+    background-color: #374c862a;
+    color: #374c86;
+}
+
+.cstmBtn {
+    padding: 15px;
+
+    border-radius: 50px;
+    border: 2px solid #374c86;
+    outline: none;
+
+    background-color: #374c86af;
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: 0.3s ease-in-out;
+}
+
+.cstmBtn:hover {
+    padding: 15px;
+
+    border-radius: 10px;
+    border: 2px solid #374c86;
+    outline: none;
+
+    background-color: #4a6fd6af;
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: 0.3s ease-in-out;
+}
+

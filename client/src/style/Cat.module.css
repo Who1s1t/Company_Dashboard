@@ -1,0 +1,13 @@
+.imgBox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    border-radius: 40px;
+    object-fit: cover;
+    width: 700px;
+    height: 700px;
+}

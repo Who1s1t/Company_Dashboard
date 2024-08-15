@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f100;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #15223d;
+}
