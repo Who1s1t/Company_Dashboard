@@ -42,7 +42,7 @@
 2. Запуск клиентской части:
 
     ```bash
-    cd ../client
+    cd client
     npm start
     ```
 
