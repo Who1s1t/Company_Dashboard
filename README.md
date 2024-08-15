@@ -4,7 +4,7 @@
 
     ```bash
     git clone https://github.com/Who1s1t/Company_Dashboard.git
-    cd company-dashboard
+    cd Company_Dashboard
     ```
 
 2. Установите зависимости для клиентской и серверной частей:
