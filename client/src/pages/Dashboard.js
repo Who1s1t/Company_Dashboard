@@ -28,7 +28,7 @@ const Dashboard = () => {
                     deleteEmployee(selectedEmployee.employee_id)
                         .then(()=>setUpdate(!update))
                         .catch(error => console.error('Error adding employee:', error));
-                }}> Удалить</button>
+                }} disabled={!selectedEmployee}> Удалить</button>
             </div>
             {formVisible.update && <EmployeeForm setFormVisible={setFormVisible} selectedEmployee={selectedEmployee} setUpdate={setUpdate}/>}
             {formVisible.add && <EmployeeForm setFormVisible={setFormVisible}   setUpdate={setUpdate}/>}
